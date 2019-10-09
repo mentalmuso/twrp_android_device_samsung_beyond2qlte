@@ -70,6 +70,9 @@ TARGET_BOARD_PLATFORM := msmnile
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno640
 QCOM_BOARD_PLATFORMS += msmnile
 
+# System as root
+BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
+
 # Partitions (userdata ??)
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
 
