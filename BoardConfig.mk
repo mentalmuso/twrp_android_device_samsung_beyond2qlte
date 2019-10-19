@@ -52,6 +52,7 @@ TARGET_USERIMAGES_USE_F2FS := true
 
 # Kernel
 TARGET_PREBUILT_KERNEL := device/samsung/beyond2qlte/prebuilt/Image-dtb
+BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_APPEND_DTB := true
@@ -84,6 +85,8 @@ TARGET_OTA_ASSERT_DEVICE := beyond2qlte
 BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_HAS_NO_SELECT_BUTTON := true
 TARGET_USERIMAGES_USE_EXT4 := true
+BOARD_INCLUDE_RECOVERY_DTBO := true
+BOARD_PREBUILT_DTBOIMAGE := device/samsung/gts6lwifi/prebuilt/dtbo
 TARGET_RECOVERY_FSTAB := device/samsung/beyond2qlte/recovery/root/etc/recovery.fstab
 
 # Android Verified Boot
