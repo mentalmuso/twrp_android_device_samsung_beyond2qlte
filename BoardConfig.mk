@@ -86,7 +86,7 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_HAS_NO_SELECT_BUTTON := true
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_INCLUDE_RECOVERY_DTBO := true
-BOARD_PREBUILT_DTBOIMAGE := device/samsung/gts6lwifi/prebuilt/dtbo
+BOARD_PREBUILT_DTBOIMAGE := device/samsung/beyond2qlte/prebuilt/dtbo
 TARGET_RECOVERY_FSTAB := device/samsung/beyond2qlte/recovery/root/etc/recovery.fstab
 
 # Android Verified Boot
